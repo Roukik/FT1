@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #4D92A2;
+    margin: auto;
+    width: 800px;
+}
+
+#question {
+    background-color: #FFB527;
+    border: 1px solid #333;
+    box-shadow: 0 0 2px #333;
+    margin-top: 50px;
+}
