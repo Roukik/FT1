@@ -31,7 +31,7 @@ body {
 .bloc {
     width: 100px;
     height: 100px;
-    margin: 10px;
+    margin: 0px;
     background-color: #3DB5C5;
     border: 2px solid #FFFF;
     transition: background-color 0.3s;
