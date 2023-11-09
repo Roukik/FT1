@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background: #3DB5C5;
-    position: absolute;
+
 }
 
 #question {
@@ -65,7 +65,7 @@ body{
 }
 
 .bloc:first-child:hover:before{
-    background:31486A;
+    background:#31486A;
 }
 
 .bloc:last-child:hover:before{
