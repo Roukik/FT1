@@ -17,13 +17,16 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    width: 800px;
+    width: 960px;
     padding: 20px;
     font-size: 40px;
     color: white;
     position: absolute;
     z-index: 99;
     left: 25%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%)
 }
 .conteneur{
     display: flex;
@@ -32,7 +35,9 @@ body{
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    
 }
+
 
 .bloc{
     display: flex;
@@ -42,6 +47,7 @@ body{
     width: 100%;
     transform: skewX(-10deg);
     position: relative;
+    text-decoration: none;
 }
 
 .bloc:first-child:before{
@@ -73,10 +79,10 @@ body{
 }
 
 .bloc p{
- 
     font-size: 60px;
     color: white;
     font-weight: bold;
+    text-decoration:none;
 }
 
 .bloc:hover{
@@ -89,4 +95,5 @@ body{
 
 .bloc:not(:last-child) {
     border-right: 4px solid white;
+    text-decoration:none;
 }

@@ -12,6 +12,7 @@ body{
 #question {
     background-color: #FFB527;
     box-shadow: 0 0 5px #333;
+    font-family:'techna_sans';
     margin-top: 50px; 
     display: flex;
     justify-content: center;
