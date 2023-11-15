@@ -24,6 +24,9 @@ body{
     position: absolute;
     z-index: 99;
     left: 25%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%)
 }
 .conteneur{
     display: flex;
@@ -35,9 +38,6 @@ body{
     
 }
 
-img {
-    margin-left: 1780px;
-}
 
 .bloc{
     display: flex;
@@ -47,6 +47,7 @@ img {
     width: 100%;
     transform: skewX(-10deg);
     position: relative;
+    text-decoration: none;
 }
 
 .bloc:first-child:before{
@@ -82,6 +83,7 @@ img {
     font-size: 60px;
     color: white;
     font-weight: bold;
+    text-decoration:none;
 }
 
 .bloc:hover{
@@ -94,5 +96,12 @@ img {
 
 .bloc:not(:last-child) {
     border-right: 4px solid white;
+    text-decoration:none;
 }
 
+
+img {
+    position: fixed;
+    bottom: 0%;
+    right: 0;
+}
