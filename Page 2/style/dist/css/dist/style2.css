@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #333;
+  background-color: #F0F0F0;
 }
 
 header {
@@ -21,8 +21,10 @@ header .search-bar {
   margin: 0 15px;
 }
 header input {
-  width: 100%;
+  width: 700px;
+  height: 20px;
   padding: 8px;
+  border-radius: 25px;
 }
 header button {
   padding: 8px 15px;
@@ -59,8 +61,8 @@ header .icon {
 }
 
 .content {
-  height: 90vh;
-  background-color: aliceblue;
+  height: 95vh;
+  background-color: #F0F0F0;
   display: flex;
   flex-direction: row;
 }
@@ -72,19 +74,40 @@ header .icon {
   background-color: #676B92;
   border-radius: 0px 25px 25px 0px;
 }
+.sidebar .mark {
+  height: 30px;
+  width: 200px;
+  margin: none;
+  background-color: #D9D9D9;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.sidebar .mark li {
+  color: #4A507F;
+}
 .sidebar li {
   list-style: none;
   margin-bottom: 10px;
   margin-top: 10px;
-  margin-left: 10px;
   color: #fff;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 .sidebar img {
   margin-right: 10px;
 }
-.sidebar .parcours_light {
-  height: 20px;
-  width: 100px;
+.sidebar ul {
+  margin-left: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 10px;
+  font-weight: bold;
+  font-size: 15px;
 }
 .sidebar .user_info {
   align-items: center;
@@ -92,19 +115,28 @@ header .icon {
   flex-direction: column;
   margin-block: none;
 }
+.sidebar .user_info img {
+  margin-top: 20px;
+}
 .sidebar .user_name {
   font-size: 20px;
   color: #fff;
 }
 .sidebar p.formation, .sidebar .promo_info1, .sidebar .promo_info2 {
-  font-size: 11px;
+  font-size: 15px;
   margin-block: 0;
+  color: #fff;
+}
+.sidebar .promo_info2 {
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 .sidebar .hl {
-  border: solid 2px #fff;
+  border: solid 1px #9A9A9A;
   width: 200px;
-  display: flex;
-  justify-content: center;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .progress {
@@ -114,6 +146,7 @@ header .icon {
   border-radius: 25px;
   align-items: center;
   float: left;
+  margin-top: 20px;
 }
 
 .vl2 {
@@ -144,8 +177,13 @@ h1 {
 
 h2 {
   color: white;
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+h2 img {
+  margin-right: 10px;
 }
 
 .vl_rec1 {
@@ -289,19 +327,25 @@ h2 {
 
 .course_title {
   margin-left: 10px;
+  font-size: 25px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .course_content {
-  margin-left: 10px;
+  margin-left: 20px;
   font-size: 20px;
   color: white;
   width: 900px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: light;
 }
 
 .time {
   float: left;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .start_button {
@@ -311,6 +355,12 @@ h2 {
   border-radius: 25px;
   margin-right: 10px;
   border: none;
+  background-color: #fff;
+}
+.start_button span {
+  color: #4A507F;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .vl4 {
@@ -356,14 +406,13 @@ h2 {
   margin-left: 20px;
 }
 
-.exit {
-  margin-inline: 20px;
-}
-
 .progress {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.progress .progress_ttle {
+  font-size: 20px;
 }
 .progress .circle3 {
   height: 200px;
